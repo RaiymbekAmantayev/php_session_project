@@ -1,0 +1,165 @@
+/* -------------------common---------------------  */
+
+body {
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    color: darkblue
+}
+
+.navigation {
+    padding: 15px 0;
+    /* border: 1px solid black; */
+    background-color: black;
+}
+
+.navigation ul {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.main {
+    font-weight: bold;
+    color: black;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.navigation ul a:hover {
+    text-decoration: none;
+    /* border-bottom: 1px solid black; */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: none;
+}
+
+.navigation>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* -------------------padding---------------------  */
+
+.banner {
+    /* border: 2px solid black; */
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(mexia.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+.advantages {
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.button {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 10%;
+    justify-content: space-around;
+}
+
+.button button {
+    width: 40%;
+    border: none;
+}
+
+.advantages>.container {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    height: 500%;
+}
+
+.but {
+    background-color: white;
+    color: black;
+    width: 90px;
+}
+
+.bt:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.but:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.advantages>.container>div {
+    width: 17%;
+    /* height: 150%; */
+    text-align: center;
+    color: black;
+    border-radius: 15%;
+    background-color: bisque;
+}
+
+.containers {
+    width: 80%;
+    margin: auto;
+}
+
+.prices {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0%;
+}
+
+
+/* -------------------gallery-------------------- */
+
+.gallery h2 {
+    text-align: center;
+    padding: 15px 0 0px;
+}
+
+.gallery>.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery>.container>div {
+    width: 30%;
+    text-align: center;
+}
+
+.gallery img {
+    width: 80%;
+    border-radius: 10%;
+}
+
+.gallery p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.black-link {
+    color: black;
+    text-decoration: none; /* Опционально: убирает подчеркивание у ссылки */
+}
+/* -------------------team-------------------- */
