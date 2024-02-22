@@ -3,12 +3,11 @@ global $pdo;
 require_once "../db/connect.php";?>
 <?php session_start(); ?>
 <?php
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = isset($_POST["id"]) ? $_POST["id"] : "";
     $title = isset($_POST["title"]) ? $_POST["title"] : "";
     $price = isset($_POST["price"]) ? $_POST["price"] : "";
     $description = isset($_POST["desc"]) ? $_POST["desc"] : "";
+
     // Обработка загруженного файла
     $targetDir = "images/";
     $targetFile = $targetDir . basename($_FILES["image"]["name"]);
@@ -29,20 +28,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Переместить файл в указанное место
     if (move_uploaded_file($_FILES["image"]["tmp_name"], $targetFile)) {
-        echo "Файл " . basename($_FILES["image"]["name"]) . " успешно загружен.";
+        echo "Файл ". basename($_FILES["image"]["name"]). " успешно загружен.";
     } else {
         echo "Ошибка загрузки файла.";
     }
-    $updateService = $pdo->prepare("UPDATE products SET title = :title, price = :price, image = :image, description = :description WHERE id = :id");
-    $updateService->execute([
-        ':title' => $title,
-        ':price' => $price,
-        ':image' => basename($_FILES["image"]["name"]),
-        ':description' => $description,
-        ':id' => $id
-    ]);
 
-    header("Location: /");
+    // Сохранить данные в базе данных
+    $service = "INSERT INTO products (title, price, image, description) VALUES (:title, :price, :image,:description)";
+    $serv = $pdo->prepare($service);
+
+    $params = [
+        ":title" => $title,
+        ":price" => $price,
+        "image" => basename($_FILES["image"]["name"]),
+        ":description"=>$description,
+    ];
+
+    $serv->execute($params);
+
+    header("Location: /admin/addProduct.php");
     exit();
 }
 ?>
+

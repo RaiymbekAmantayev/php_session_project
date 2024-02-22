@@ -11,16 +11,16 @@
 <h2 style="text-align: center; padding-top:180px">Sign Up</h2>
 <form action="auth/Sign_Up.php" method="post" style="text-align: center; padding-top:70px">
     <div class="form-group">
-        <input type="text" placeholder="enter ur name" name='name' required/>
+        <input type="text" placeholder="enter ur login" name='login' required/>
     </div>
     <div class="form-group">
-        <input type="text" placeholder="enter ur login" name='login' required/>
+        <input type="number" placeholder="enter ur number" name='number' required/>
     </div>
     <div class="form-group">
         <input type="text" placeholder="enter ur password" name='password' required/>
     </div>
     <div class="form-group">
-    <input type="password" name="confirm_password" placeholder="enter password again" required/>
+        <input type="password" name="confirm_password" placeholder="enter password again" required/>
     </div>
     <button type="submit" class="btn btn-primary">Sign Up</button>
 </form>

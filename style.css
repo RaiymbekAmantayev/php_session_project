@@ -59,76 +59,76 @@ body {
     padding: 50px;
     display: flex;
     flex-direction: column;
-    background-image: url(mexia.jpg);
+    background-image: url(main.jpg);
     background-size: 100% 100%;
     margin: 0;
 }
 
-.advantages {
-    background-color: aqua;
-    padding: 0;
-    margin: 0;
-    border: 1px solid black;
-}
 
-.button {
-    /* border: 1px solid black; */
-    width: 30%;
-    height: 10%;
-    justify-content: space-around;
-}
-
-.button button {
-    width: 40%;
-    border: none;
-}
-
-.advantages>.container {
-    display: flex;
-    /* border: 1px solid black; */
-    justify-content: space-around;
-    height: 500%;
-}
-
-.but {
+.new-arrivals {
     background-color: white;
-    color: black;
-    width: 90px;
-}
-
-.bt:hover {
-    background-color: darkblue;
-    color: white;
-}
-
-.but:hover {
-    background-color: darkcyan;
-    color: white;
-}
-
-.advantages>.container>div {
-    width: 17%;
-    /* height: 150%; */
     text-align: center;
-    color: black;
-    border-radius: 15%;
-    background-color: bisque;
+    padding: 50px 0;
 }
 
-.containers {
-    width: 80%;
-    margin: auto;
+.new-arrivals h2 {
+    margin-top: 0;
 }
 
-.prices {
-    border-bottom: 1px solid black;
+.card-container {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
 
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-title {
+    margin-top: 0;
+}
+
+.card-price {
+    margin-bottom: 0;
+}
+
+.show-more {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
 /* -------------------gallery-------------------- */
 
 .gallery h2 {
@@ -146,6 +146,20 @@ body {
 .gallery>.container>div {
     width: 30%;
     text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons>a {
+    width: 69px;
+    margin-right: 10px;
+}
+
+.buttons>a>button {
+    width: 69px;
 }
 
 .gallery img {

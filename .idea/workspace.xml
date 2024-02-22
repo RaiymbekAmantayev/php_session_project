@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="209e0111-e917-4e14-960f-2ffed58a0d22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/addEmployees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/db/connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/orders_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/realising/addComment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/realising/addEmployer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/realising/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/realising/fav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/realising/orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about_description_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/about_item_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/advantages_item_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/footerFirst_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/footerFour_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/footerSecond_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/footerThird_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ourWorks_bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ourWorks_wrapper_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/projects_items_img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/videoWorkWrapper_bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/videoWork_button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/videowork_bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fav_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/head-footer/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/head-footer/header_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_Back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web_srs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChangePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChangePass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavBar/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavBar/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/head-footer/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavBar/header_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/head-footer/header_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShowMore.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sign_Up.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sign_Up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/addTour.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/clicks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/realising/Clicks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/realising/addTour.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/realising/addProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/realising/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/realising/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/realising/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/realising/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/updateTour.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/updateProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/Sign_Up.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/Sign_Up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/changePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/changePass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailTour.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mexia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Yq2tE508J4UoSxYDoDbJcxKYD5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/sabak&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\sdilnaz" />
+      <recent name="C:\Users\User\Desktop\sdilnaz\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="209e0111-e917-4e14-960f-2ffed58a0d22" name="Changes" comment="" />
+      <created>1701239002085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701239002085</updated>
+      <workItem from="1701239003193" duration="4449000" />
+      <workItem from="1701250099089" duration="3334000" />
+      <workItem from="1701343262333" duration="2292000" />
+      <workItem from="1701346691785" duration="1011000" />
+      <workItem from="1701352060703" duration="3386000" />
+      <workItem from="1701404786928" duration="4491000" />
+      <workItem from="1701421608612" duration="2391000" />
+      <workItem from="1701429266449" duration="2289000" />
+      <workItem from="1701498163144" duration="849000" />
+      <workItem from="1701517785244" duration="713000" />
+      <workItem from="1701592177010" duration="4492000" />
+      <workItem from="1701600329366" duration="4058000" />
+      <workItem from="1701619669364" duration="1897000" />
+      <workItem from="1701656171347" duration="1420000" />
+      <workItem from="1701658534901" duration="997000" />
+      <workItem from="1701666321710" duration="871000" />
+      <workItem from="1701670834030" duration="7000" />
+      <workItem from="1701678822082" duration="463000" />
+      <workItem from="1701709072302" duration="164000" />
+      <workItem from="1701712851631" duration="1483000" />
+      <workItem from="1701746382715" duration="2815000" />
+      <workItem from="1701758416882" duration="28000" />
+      <workItem from="1701760335822" duration="1182000" />
+      <workItem from="1701766279589" duration="122000" />
+      <workItem from="1701766531179" duration="841000" />
+      <workItem from="1701792416904" duration="1365000" />
+      <workItem from="1701838421095" duration="53000" />
+      <workItem from="1701848348831" duration="1581000" />
+      <workItem from="1701855955749" duration="835000" />
+      <workItem from="1701917548858" duration="30000" />
+      <workItem from="1701919008849" duration="3002000" />
+      <workItem from="1702000632214" duration="17000" />
+      <workItem from="1702000883887" duration="1366000" />
+      <workItem from="1702026934933" duration="63000" />
+      <workItem from="1702101937497" duration="785000" />
+      <workItem from="1702264348999" duration="2163000" />
+      <workItem from="1702266623674" duration="12000" />
+      <workItem from="1702319540249" duration="1209000" />
+      <workItem from="1703236400261" duration="125000" />
+      <workItem from="1703236564882" duration="46000" />
+      <workItem from="1703238479396" duration="501000" />
+      <workItem from="1703415495439" duration="3834000" />
+      <workItem from="1703433380041" duration="36000" />
+      <workItem from="1703436910613" duration="2514000" />
+      <workItem from="1703481119656" duration="11000" />
+      <workItem from="1703482112252" duration="2979000" />
+      <workItem from="1703485971106" duration="1394000" />
+      <workItem from="1703487644890" duration="490000" />
+      <workItem from="1703494482227" duration="1380000" />
+      <workItem from="1703559835575" duration="896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/updateProduct.php</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/realising/update.php</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/realising/addProduct.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

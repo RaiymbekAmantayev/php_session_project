@@ -1,6 +1,6 @@
 <?php
 global $pdo;
-require_once "../functions/connect.php"; // Подключение к базе данных
+require_once "../db/connect.php"; // Подключение к базе данных
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -23,7 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $updateStmt = $pdo->prepare("UPDATE users SET password = :password WHERE login = :login");
             $updateStmt->execute([':password' => $hashedPassword, ':login' => $login]);
 
-            echo json_encode("Success");
+            unset($_SESSION['login']);
+            header("Location: /login.php");
+            exit();
         } else {
             echo json_encode(["error" => "Wrong password"]);
         }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<?php require "NavBar/header.php"?>
+<?php require "head-footer/header.php" ?>
 <h2 style="text-align: center; padding-top:180px">Sign In </h2>
 <form action="auth/login.php" method="post" style="text-align: center; padding-top:70px">
     <div class="form-group">
@@ -19,5 +19,5 @@
     </div>
     <button type="submit" class="btn btn-primary">Sign In</button>
 </form>
-<?php require "NavBar/footer.php"?>
+<?php require "head-footer/footer.php" ?>
 </body>

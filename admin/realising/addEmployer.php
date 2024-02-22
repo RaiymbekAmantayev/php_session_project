@@ -1,14 +1,12 @@
 <?php
 global $pdo;
-require_once "../db/connect.php";?>
-<?php session_start(); ?>
-<?php
+require_once "../db/connect.php";
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = isset($_POST["id"]) ? $_POST["id"] : "";
-    $title = isset($_POST["title"]) ? $_POST["title"] : "";
-    $price = isset($_POST["price"]) ? $_POST["price"] : "";
-    $description = isset($_POST["desc"]) ? $_POST["desc"] : "";
+    $name = isset($_POST["name"]) ? $_POST["name"] : "";
+    $job_title = isset($_POST["job_title"]) ? $_POST["job_title"] : "";
+
     // Обработка загруженного файла
     $targetDir = "images/";
     $targetFile = $targetDir . basename($_FILES["image"]["name"]);
@@ -33,16 +31,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Ошибка загрузки файла.";
     }
-    $updateService = $pdo->prepare("UPDATE products SET title = :title, price = :price, image = :image, description = :description WHERE id = :id");
-    $updateService->execute([
-        ':title' => $title,
-        ':price' => $price,
-        ':image' => basename($_FILES["image"]["name"]),
-        ':description' => $description,
-        ':id' => $id
-    ]);
 
-    header("Location: /");
+    // Сохранить данные в базе данных
+    $service = "INSERT INTO employees (name, job_title, image) VALUES (:name, :job_title, :image)";
+    $serv = $pdo->prepare($service);
+
+    $params = [
+        ":name" => $name,
+        ":job_title" => $job_title,
+        ":image" => basename($_FILES["image"]["name"]),
+    ];
+    $serv->execute($params);
+
+    header("Location: /admin/addEmployees.php");
     exit();
 }
 ?>

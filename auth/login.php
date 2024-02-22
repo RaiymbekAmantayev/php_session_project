@@ -1,5 +1,5 @@
 <?php global $pdo;
-require_once "../functions/connect.php";  ?>
+require_once "../db/connect.php";  ?>
 <?php session_start(); ?>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $hash_input = password_hash($password, PASSWORD_BCRYPT);
     if($user && (password_verify($password, $user['password']))) {
         $_SESSION['login'] = $user['login'];
-        header("Location: /practice.php"); // Перенаправление на защищенную страницу
+        header("Location: /"); // Перенаправление на защищенную страницу
         exit();
     } else {
         echo "wrong password";

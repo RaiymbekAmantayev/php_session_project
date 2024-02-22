@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php
-require "NavBar/header.php";
+require "head-footer/header.php";
 ?>
 <h2 style="text-align: center; padding-top:180px">Change Password</h2>
 <form action="auth/changePass.php" method="post" style="text-align: center; padding-top:70px">

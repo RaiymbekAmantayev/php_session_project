@@ -2,6 +2,10 @@ html {
   text-size-adjust: 100%;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
 
 body {
   line-height: 1.7;

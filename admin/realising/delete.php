@@ -1,11 +1,8 @@
 <?php
-$user = "root";
-$password = "";
-$host = "localhost";
-$db = "tourism";
-$dbn = "mysql:host=".$host.';dbname='.$db.';charset=utf8';
-$pdo = new PDO($dbn, $user, $password);
-$pdo->exec("USE $db");
+global $pdo;
+require_once "../db/connect.php";?>
+<?php session_start(); ?>
+<?php
 
 // Обработка нажатия кнопки удаления
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -13,12 +10,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Получение ID записи, которую нужно удалить
         $id_to_delete = $_POST['id_to_delete'];
         // SQL-запрос на удаление записи из таблицы
-        $sql = "DELETE FROM tour WHERE id = :id";
+        $sql = "DELETE FROM products WHERE id = :id";
         $stmt = $pdo->prepare($sql);
         $stmt->execute([':id' => $id_to_delete]);
 
         // После удаления перенаправьте пользователя или выполните другие действия
-        header("Location: /practice.php");
+        header("Location: /index.php");
         exit();
     }
 }
